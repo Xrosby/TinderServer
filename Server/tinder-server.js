@@ -18,7 +18,7 @@ let schema = buildSchema(`
     jobs: [String]
     },
     type Profile {
-    id: Int!
+    id: String!
     name: String!
     age: Int!
     job: String

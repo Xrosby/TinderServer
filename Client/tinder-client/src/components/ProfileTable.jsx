@@ -65,6 +65,14 @@ class ProfileTable extends React.Component {
 export default ProfileTable;
 
 class ProfileRow extends React.Component {
+
+    isParent(bool) {
+        if(bool) {
+            return "Ja"
+        }
+        return "Nej"
+    }
+
     render() {
 
         return (
@@ -75,9 +83,9 @@ class ProfileRow extends React.Component {
                 <td>{this.props.profile.age}</td>
                 <td>{this.props.profile.job}</td>
                 <td>{this.props.profile.education}</td>
-                <td>{this.props.profile.interests}</td>
+                <td>{this.props.profile.interests.join(', ')}</td>
                 <td>{this.props.profile.lookingFor}</td>
-                <td>{this.props.profile.parent}</td>
+                <td>{this.isParent(this.props.profile.parent)}</td>
             </tr>
 
         );

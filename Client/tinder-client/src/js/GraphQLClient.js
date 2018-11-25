@@ -1,6 +1,6 @@
 export function loadProfiles(callback) {
 
-    const query = `query {allProfiles {interests, name}}`;
+    const query = `query {allProfiles {interests, name, age, job, education, lookingFor, parent, id}}`;
 
     fetch('http://localhost:4000/graphql',
         {
@@ -15,21 +15,3 @@ export function loadProfiles(callback) {
 
 }
 
-
-function mockProfiles() {
-    let profiles = [];
-
-    let profile = {
-        id: 1,
-        name: "Cecilie-Marie",
-        age: 22,
-        job: "",
-        education: "Ernæring og Sundhed",
-        interests: ["Sang"],
-        lookingFor: ["Forhold"],
-        parent: false
-    }
-
-    profiles.push(profile);
-    return profiles;
-}
