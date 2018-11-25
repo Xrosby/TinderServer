@@ -3,6 +3,8 @@ const express_graphql = require('express-graphql');
 const {buildSchema} = require('graphql');
 const fs = require('fs');
 const uniqid = require('uniqid');
+const cors = require('cors');
+
 
 let schema = buildSchema(`
     type Query {
@@ -183,13 +185,13 @@ let root = {
 }
 
 let app = express();
-app.use('/graphql', express_graphql({
+app.use('/graphql',cors(), express_graphql({
     schema: schema,
     rootValue: root,
     graphiql: true
 }));
 
-
+//app.options('*', cors());
 app.listen(4000, () => console.log('Express GraphQL Server Now Running On localhost:4000/graphql'));
 
 
