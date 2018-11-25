@@ -8,17 +8,17 @@ class ProfileTable extends React.Component {
         super(props);
         this.state = {
             loading: true,
-            profiles: null
+            profiles: loadProfiles(this.handleLoad.bind(this))
         }
     }
 
 
-    handleLoad(data) {
+    handleLoad(result) {
         console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-        console.log(data);
+        console.log(result);
         this.setState({
             loading: false,
-            profiles: data
+            profiles: result.data
         });
     }
 
@@ -28,7 +28,7 @@ class ProfileTable extends React.Component {
         }
 
         let rows = [];
-        for (let profile of this.state.data.allProfiles) {
+        for (let profile of this.state.profiles.allProfiles) {
             rows.push(<ProfileRow profile={profile}/>);
         }
         return rows;
@@ -52,7 +52,7 @@ class ProfileTable extends React.Component {
                     </tr>
                     </thead>
                     <tbody>
-                    {this.renderRows(loadProfiles(this.handleLoad.bind(this)))}
+                    {this.renderRows()}
                     </tbody>
                 </table>
 

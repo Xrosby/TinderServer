@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5bf79fd-cb04-40fd-a395-94861f79e109" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Client/tinder-client/src/components/InputContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/tinder-client/src/components/NavBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/tinder-client/src/components/ProfileTable.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/tinder-client/src/components/SearchContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/tinder-client/src/css/ProfileTable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/tinder-client/src/js/GraphQLClient.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/tinder-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/tinder-client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/tinder-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/tinder-client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/tinder-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/tinder-client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/tinder-client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/tinder-client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/tinder-client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/tinder-client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/tinder-client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/tinder-client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/tinder-client/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jQuery/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jQuery/LICENSE-MIT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jQuery/grunt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jQuery/lib/node-jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jQuery/src/wrapper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jQuery/test/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jQuery/test/css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jQuery/test/fixtures/core.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jQuery/test/fixtures/css.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jQuery/test/fixtures/css.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jQuery/test/helpers/helper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jQuery/tmp/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jquery/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jquery/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinder-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/tinder-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/tinder-client/src/components/ProfileTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/tinder-client/src/components/ProfileTable.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
