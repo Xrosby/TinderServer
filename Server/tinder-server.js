@@ -9,6 +9,7 @@ let schema = buildSchema(`
     profile(id: Int!): Profile
     interests(interests: [String]): [Profile]
     youngerThan(age: Int!): [Profile]
+    olderThan(age: Int!): [Profile]
     },
     type Profile {
     id: Int!
@@ -84,7 +85,8 @@ let getProfilesByInterests = function (args) {
 let root = {
     profile: getProfile,
     interests: getProfilesByInterests,
-    youngerThan: getProfilesYoungerThan
+    youngerThan: getProfilesYoungerThan,
+    olderThan: getProfilesOlderThan
 }
 
 let app = express();
