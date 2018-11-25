@@ -1,0 +1,157 @@
+{
+  "profiles": [
+    {
+      "id": 1,
+      "name": "Cecilie-Marie",
+      "age": 22,
+      "job": "",
+      "education": "Ernæring og Sundhed",
+      "interests": [
+        "Sang"
+      ],
+      "lookingFor": [
+        "Forhold"
+      ],
+      "parent": false
+    },
+    {
+      "id": 2,
+      "name": "Cecilie",
+      "age": 29,
+      "job": "",
+      "education": "Biology",
+      "interests": [
+        "Sang",
+        "Hunde",
+        "Crossfit"
+      ],
+      "lookingFor": [
+        "Forhold"
+      ],
+      "parent": false
+    },
+    {
+      "id": 3,
+      "name": "Cecilia",
+      "age": 27,
+      "job": "",
+      "education": "Journalistik",
+      "interests": [
+        "Musik",
+        "Øl"
+      ],
+      "lookingFor": [
+        "Sjov"
+      ],
+      "parent": false
+    },
+    {
+      "id": 4,
+      "name": "Emilie",
+      "age": 26,
+      "job": "Lærer",
+      "education": "Lærer",
+      "interests": [
+        "Natur",
+        "Eventyr",
+        "Rejser"
+      ],
+      "lookingFor": [
+        "Forhold"
+      ],
+      "parent": true
+    },
+    {
+      "id": 5,
+      "name": "Emma",
+      "age": 22,
+      "job": "",
+      "education": "Logopædi",
+      "interests": [
+      ],
+      "lookingFor": [
+      ],
+      "parent": false
+    },
+    {
+      "id": 6,
+      "name": "Regine",
+      "age": 22,
+      "job": "Pædagog",
+      "education": "Pædagog",
+      "interests": [
+        "Is",
+        "Film",
+        "Anime",
+        "Manga",
+        "Romantiske noveller"
+      ],
+      "lookingFor": [
+      ],
+      "parent": false
+    },
+    {
+      "id": 7,
+      "name": "Malene",
+      "age": 25,
+      "job": "",
+      "education": "Sygeplejerske",
+      "interests": [
+        "Hunde",
+        "Crossfit",
+        "Vin"
+      ],
+      "lookingFor": [
+        "Sjov"
+      ],
+      "parent": true
+    },
+    {
+      "id": 8,
+      "name": "Anne",
+      "age": 25,
+      "job": "Sygeplejerske",
+      "education": "Sygeplejersje",
+      "interests": [
+        "Musik",
+        "Vin",
+        "Gåture",
+        "Crossfit"
+      ],
+      "lookingFor": [
+      ],
+      "parent": false
+    },
+    {
+      "id": 9,
+      "name": "Louise",
+      "age": 31,
+      "job": "Sygeplejerske",
+      "education": "",
+      "interests": [
+        "Træning",
+        "Vin",
+        "Hunde"
+      ],
+      "lookingFor": [
+        "Forhold"
+      ],
+      "parent": true
+    },
+    {
+      "id": 10,
+      "name": "Karen",
+      "age": 23,
+      "job": "Receptionist",
+      "education": "",
+      "interests": [
+        "Vin",
+        "Gåture",
+        "Gaming"
+      ],
+      "lookingFor": [
+        "Forhold"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "gql-tinder-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node tinder-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "fs": "0.0.1-security",
+    "graphql": "^14.0.2",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.3.1",
+    "jsdom": "^13.0.0"
+  }
+}
